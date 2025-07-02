@@ -28,6 +28,7 @@ body{
     background-color: rgb(1, 1, 49);
 }
 #screentext{
+    pointer-events: none;
     margin-top:20px;
     margin-left:20px;
     background-color: silver;
