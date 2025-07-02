@@ -1,0 +1,97 @@
+.header{
+    margin: 0;
+    padding:0;
+    background-color: black;
+    height: 75px;
+    width: 100%;
+}
+.headertext{
+    color: aliceblue;
+    padding-left: 685px;
+    margin-top:0px;
+    padding-top:15px;
+   
+}
+
+body{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.screen{
+    width:30%;
+    height: 570px;
+    margin-left: 35%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: rgb(1, 1, 49);
+}
+#screentext{
+    margin-top:20px;
+    margin-left:20px;
+    background-color: silver;
+    width: 90%;
+    height: 130px;
+    border-radius:15px;;
+    margin-bottom: 45px;
+    font-size: 30px;
+}
+
+ 
+.row{
+    padding-left:25px;
+}
+.button{
+    width: 70px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color:azure;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: none;
+}
+.button:hover{
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    cursor: pointer;
+    border: 1px solid azure;
+    transition: background-color 0.5s;
+}
+.op{
+    width: 70px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color:azure;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: none;
+}
+.op:hover{
+    background-color: rgb(246, 255, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: 1px solid azure;
+    transform: scale(1.05);
+    transition: background-color 0.5s, transform 0.5s;
+}
+.eq{
+    width: 70px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color:azure;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: none;
+}
+.eq:hover{
+    background-color: rgb(19, 193, 0);
+    color: azure;
+    cursor: pointer;
+    border: 1px solid azure;
+     transform: scale(1.05);
+    transition: background-color 0.5s, transform 0.5s;
+}
